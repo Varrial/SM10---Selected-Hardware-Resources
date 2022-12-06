@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F69803B3293FF75E00737CEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F69803B2293FF75E00737CEF /* AppDelegate.m */; };
+		F69803B6293FF75E00737CEF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F69803B5293FF75E00737CEF /* SceneDelegate.m */; };
+		F69803B9293FF75E00737CEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F69803B8293FF75E00737CEF /* ViewController.m */; };
+		F69803BC293FF75E00737CEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69803BA293FF75E00737CEF /* Main.storyboard */; };
+		F69803BE293FF75F00737CEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F69803BD293FF75F00737CEF /* Assets.xcassets */; };
+		F69803C1293FF75F00737CEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69803BF293FF75F00737CEF /* LaunchScreen.storyboard */; };
+		F69803C4293FF75F00737CEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F69803C3293FF75F00737CEF /* main.m */; };
+		F69803CE293FF75F00737CEF /* SM10___Selected_Hardware_ResourcesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F69803CD293FF75F00737CEF /* SM10___Selected_Hardware_ResourcesTests.m */; };
+		F69803D8293FF75F00737CEF /* SM10___Selected_Hardware_ResourcesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F69803D7293FF75F00737CEF /* SM10___Selected_Hardware_ResourcesUITests.m */; };
+		F69803DA293FF75F00737CEF /* SM10___Selected_Hardware_ResourcesUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F69803D9293FF75F00737CEF /* SM10___Selected_Hardware_ResourcesUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F69803CA293FF75F00737CEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F69803A6293FF75E00737CEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F69803AD293FF75E00737CEF;
+			remoteInfo = "SM10 - Selected Hardware Resources";
+		};
+		F69803D4293FF75F00737CEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F69803A6293FF75E00737CEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F69803AD293FF75E00737CEF;
+			remoteInfo = "SM10 - Selected Hardware Resources";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F69803AE293FF75E00737CEF /* SM10 - Selected Hardware Resources.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SM10 - Selected Hardware Resources.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69803B1293FF75E00737CEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F69803B2293FF75E00737CEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F69803B4293FF75E00737CEF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F69803B5293FF75E00737CEF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F69803B7293FF75E00737CEF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F69803B8293FF75E00737CEF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F69803BB293FF75E00737CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F69803BD293FF75F00737CEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F69803C0293FF75F00737CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F69803C2293FF75F00737CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69803C3293FF75F00737CEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F69803C9293FF75F00737CEF /* SM10 - Selected Hardware ResourcesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SM10 - Selected Hardware ResourcesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69803CD293FF75F00737CEF /* SM10___Selected_Hardware_ResourcesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SM10___Selected_Hardware_ResourcesTests.m"; sourceTree = "<group>"; };
+		F69803D3293FF75F00737CEF /* SM10 - Selected Hardware ResourcesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SM10 - Selected Hardware ResourcesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69803D7293FF75F00737CEF /* SM10___Selected_Hardware_ResourcesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SM10___Selected_Hardware_ResourcesUITests.m"; sourceTree = "<group>"; };
+		F69803D9293FF75F00737CEF /* SM10___Selected_Hardware_ResourcesUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SM10___Selected_Hardware_ResourcesUITestsLaunchTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F69803AB293FF75E00737CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69803C6293FF75F00737CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69803D0293FF75F00737CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F69803A5293FF75E00737CEF = {
+			isa = PBXGroup;
+			children = (
+				F69803B0293FF75E00737CEF /* SM10 - Selected Hardware Resources */,
+				F69803CC293FF75F00737CEF /* SM10 - Selected Hardware ResourcesTests */,
+				F69803D6293FF75F00737CEF /* SM10 - Selected Hardware ResourcesUITests */,
+				F69803AF293FF75E00737CEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F69803AF293FF75E00737CEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F69803AE293FF75E00737CEF /* SM10 - Selected Hardware Resources.app */,
+				F69803C9293FF75F00737CEF /* SM10 - Selected Hardware ResourcesTests.xctest */,
+				F69803D3293FF75F00737CEF /* SM10 - Selected Hardware ResourcesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F69803B0293FF75E00737CEF /* SM10 - Selected Hardware Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F69803B1293FF75E00737CEF /* AppDelegate.h */,
+				F69803B2293FF75E00737CEF /* AppDelegate.m */,
+				F69803B4293FF75E00737CEF /* SceneDelegate.h */,
+				F69803B5293FF75E00737CEF /* SceneDelegate.m */,
+				F69803B7293FF75E00737CEF /* ViewController.h */,
+				F69803B8293FF75E00737CEF /* ViewController.m */,
+				F69803BA293FF75E00737CEF /* Main.storyboard */,
+				F69803BD293FF75F00737CEF /* Assets.xcassets */,
+				F69803BF293FF75F00737CEF /* LaunchScreen.storyboard */,
+				F69803C2293FF75F00737CEF /* Info.plist */,
+				F69803C3293FF75F00737CEF /* main.m */,
+			);
+			path = "SM10 - Selected Hardware Resources";
+			sourceTree = "<group>";
+		};
+		F69803CC293FF75F00737CEF /* SM10 - Selected Hardware ResourcesTests */ = {
+			isa = PBXGroup;
+			children = (
+				F69803CD293FF75F00737CEF /* SM10___Selected_Hardware_ResourcesTests.m */,
+			);
+			path = "SM10 - Selected Hardware ResourcesTests";
+			sourceTree = "<group>";
+		};
+		F69803D6293FF75F00737CEF /* SM10 - Selected Hardware ResourcesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F69803D7293FF75F00737CEF /* SM10___Selected_Hardware_ResourcesUITests.m */,
+				F69803D9293FF75F00737CEF /* SM10___Selected_Hardware_ResourcesUITestsLaunchTests.m */,
+			);
+			path = "SM10 - Selected Hardware ResourcesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F69803AD293FF75E00737CEF /* SM10 - Selected Hardware Resources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69803DD293FF75F00737CEF /* Build configuration list for PBXNativeTarget "SM10 - Selected Hardware Resources" */;
+			buildPhases = (
+				F69803AA293FF75E00737CEF /* Sources */,
+				F69803AB293FF75E00737CEF /* Frameworks */,
+				F69803AC293FF75E00737CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SM10 - Selected Hardware Resources";
+			productName = "SM10 - Selected Hardware Resources";
+			productReference = F69803AE293FF75E00737CEF /* SM10 - Selected Hardware Resources.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F69803C8293FF75F00737CEF /* SM10 - Selected Hardware ResourcesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69803E0293FF75F00737CEF /* Build configuration list for PBXNativeTarget "SM10 - Selected Hardware ResourcesTests" */;
+			buildPhases = (
+				F69803C5293FF75F00737CEF /* Sources */,
+				F69803C6293FF75F00737CEF /* Frameworks */,
+				F69803C7293FF75F00737CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F69803CB293FF75F00737CEF /* PBXTargetDependency */,
+			);
+			name = "SM10 - Selected Hardware ResourcesTests";
+			productName = "SM10 - Selected Hardware ResourcesTests";
+			productReference = F69803C9293FF75F00737CEF /* SM10 - Selected Hardware ResourcesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F69803D2293FF75F00737CEF /* SM10 - Selected Hardware ResourcesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69803E3293FF75F00737CEF /* Build configuration list for PBXNativeTarget "SM10 - Selected Hardware ResourcesUITests" */;
+			buildPhases = (
+				F69803CF293FF75F00737CEF /* Sources */,
+				F69803D0293FF75F00737CEF /* Frameworks */,
+				F69803D1293FF75F00737CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F69803D5293FF75F00737CEF /* PBXTargetDependency */,
+			);
+			name = "SM10 - Selected Hardware ResourcesUITests";
+			productName = "SM10 - Selected Hardware ResourcesUITests";
+			productReference = F69803D3293FF75F00737CEF /* SM10 - Selected Hardware ResourcesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F69803A6293FF75E00737CEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					F69803AD293FF75E00737CEF = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					F69803C8293FF75F00737CEF = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F69803AD293FF75E00737CEF;
+					};
+					F69803D2293FF75F00737CEF = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F69803AD293FF75E00737CEF;
+					};
+				};
+			};
+			buildConfigurationList = F69803A9293FF75E00737CEF /* Build configuration list for PBXProject "SM10 - Selected Hardware Resources" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F69803A5293FF75E00737CEF;
+			productRefGroup = F69803AF293FF75E00737CEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F69803AD293FF75E00737CEF /* SM10 - Selected Hardware Resources */,
+				F69803C8293FF75F00737CEF /* SM10 - Selected Hardware ResourcesTests */,
+				F69803D2293FF75F00737CEF /* SM10 - Selected Hardware ResourcesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F69803AC293FF75E00737CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69803C1293FF75F00737CEF /* LaunchScreen.storyboard in Resources */,
+				F69803BE293FF75F00737CEF /* Assets.xcassets in Resources */,
+				F69803BC293FF75E00737CEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69803C7293FF75F00737CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69803D1293FF75F00737CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F69803AA293FF75E00737CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69803B9293FF75E00737CEF /* ViewController.m in Sources */,
+				F69803B3293FF75E00737CEF /* AppDelegate.m in Sources */,
+				F69803C4293FF75F00737CEF /* main.m in Sources */,
+				F69803B6293FF75E00737CEF /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69803C5293FF75F00737CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69803CE293FF75F00737CEF /* SM10___Selected_Hardware_ResourcesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69803CF293FF75F00737CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69803DA293FF75F00737CEF /* SM10___Selected_Hardware_ResourcesUITestsLaunchTests.m in Sources */,
+				F69803D8293FF75F00737CEF /* SM10___Selected_Hardware_ResourcesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F69803CB293FF75F00737CEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F69803AD293FF75E00737CEF /* SM10 - Selected Hardware Resources */;
+			targetProxy = F69803CA293FF75F00737CEF /* PBXContainerItemProxy */;
+		};
+		F69803D5293FF75F00737CEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F69803AD293FF75E00737CEF /* SM10 - Selected Hardware Resources */;
+			targetProxy = F69803D4293FF75F00737CEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F69803BA293FF75E00737CEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69803BB293FF75E00737CEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F69803BF293FF75F00737CEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69803C0293FF75F00737CEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F69803DB293FF75F00737CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F69803DC293FF75F00737CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F69803DE293FF75F00737CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58W73CX6CN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SM10 - Selected Hardware Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gracjan.SM10---Selected-Hardware-Resources";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F69803DF293FF75F00737CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58W73CX6CN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SM10 - Selected Hardware Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gracjan.SM10---Selected-Hardware-Resources";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F69803E1293FF75F00737CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58W73CX6CN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gracjan.SM10---Selected-Hardware-ResourcesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SM10 - Selected Hardware Resources.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SM10 - Selected Hardware Resources";
+			};
+			name = Debug;
+		};
+		F69803E2293FF75F00737CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58W73CX6CN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gracjan.SM10---Selected-Hardware-ResourcesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SM10 - Selected Hardware Resources.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SM10 - Selected Hardware Resources";
+			};
+			name = Release;
+		};
+		F69803E4293FF75F00737CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58W73CX6CN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gracjan.SM10---Selected-Hardware-ResourcesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SM10 - Selected Hardware Resources";
+			};
+			name = Debug;
+		};
+		F69803E5293FF75F00737CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58W73CX6CN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gracjan.SM10---Selected-Hardware-ResourcesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SM10 - Selected Hardware Resources";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F69803A9293FF75E00737CEF /* Build configuration list for PBXProject "SM10 - Selected Hardware Resources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69803DB293FF75F00737CEF /* Debug */,
+				F69803DC293FF75F00737CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69803DD293FF75F00737CEF /* Build configuration list for PBXNativeTarget "SM10 - Selected Hardware Resources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69803DE293FF75F00737CEF /* Debug */,
+				F69803DF293FF75F00737CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69803E0293FF75F00737CEF /* Build configuration list for PBXNativeTarget "SM10 - Selected Hardware ResourcesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69803E1293FF75F00737CEF /* Debug */,
+				F69803E2293FF75F00737CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69803E3293FF75F00737CEF /* Build configuration list for PBXNativeTarget "SM10 - Selected Hardware ResourcesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69803E4293FF75F00737CEF /* Debug */,
+				F69803E5293FF75F00737CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F69803A6293FF75E00737CEF /* Project object */;
+}
