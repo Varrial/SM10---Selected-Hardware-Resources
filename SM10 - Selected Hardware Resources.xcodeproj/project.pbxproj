@@ -17,6 +17,7 @@
 		F69803CE293FF75F00737CEF /* SM10___Selected_Hardware_ResourcesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F69803CD293FF75F00737CEF /* SM10___Selected_Hardware_ResourcesTests.m */; };
 		F69803D8293FF75F00737CEF /* SM10___Selected_Hardware_ResourcesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F69803D7293FF75F00737CEF /* SM10___Selected_Hardware_ResourcesUITests.m */; };
 		F69803DA293FF75F00737CEF /* SM10___Selected_Hardware_ResourcesUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F69803D9293FF75F00737CEF /* SM10___Selected_Hardware_ResourcesUITestsLaunchTests.m */; };
+		F69803E8294006DF00737CEF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69803E7294006DE00737CEF /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		F69803D3293FF75F00737CEF /* SM10 - Selected Hardware ResourcesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SM10 - Selected Hardware ResourcesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F69803D7293FF75F00737CEF /* SM10___Selected_Hardware_ResourcesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SM10___Selected_Hardware_ResourcesUITests.m"; sourceTree = "<group>"; };
 		F69803D9293FF75F00737CEF /* SM10___Selected_Hardware_ResourcesUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SM10___Selected_Hardware_ResourcesUITestsLaunchTests.m"; sourceTree = "<group>"; };
+		F69803E7294006DE00737CEF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F69803E8294006DF00737CEF /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +91,7 @@
 				F69803CC293FF75F00737CEF /* SM10 - Selected Hardware ResourcesTests */,
 				F69803D6293FF75F00737CEF /* SM10 - Selected Hardware ResourcesUITests */,
 				F69803AF293FF75E00737CEF /* Products */,
+				F69803E6294006DE00737CEF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +138,14 @@
 				F69803D9293FF75F00737CEF /* SM10___Selected_Hardware_ResourcesUITestsLaunchTests.m */,
 			);
 			path = "SM10 - Selected Hardware ResourcesUITests";
+			sourceTree = "<group>";
+		};
+		F69803E6294006DE00737CEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F69803E7294006DE00737CEF /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
